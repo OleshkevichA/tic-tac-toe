@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Tic-Tac_toe</title>
+</head>
+<body>
+  <header class="header"><h1 class="game-name">Tic-Tac-Toe</h1></header>
+  <main class="main">
+    <audio src='./sounds/fight.mp3' autoplay class="audio-player"></audio>
+    <div class="container">
+      <div class="game-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="result-container">
+        <div class="overlay"></div>
+        <div class="model-window">
+          <div class="content">content</div>
+          <button class="btn-close">New Game</button>
+        </div>
+      </div>
+      <div class="score-container">
+        <p class="score">Результаты последних 10 игр</p>
+        <span class="score-item x">Победы Х: </span>
+        <span class="score-item o">Победы O: </span>
+        <span class="score-item d">Ничьи: </span>
+      </div>
+    </div>
+  </main> 
+  <footer>
+    <div class="footer-container">
+      <span><a href="https://github.com/OleshkevichA" class="footer-item">GitHub</a></span>
+      <span class="footer-item">2022</span>
+      <span><a href="https://rs.school/js-stage0/" class="rss-logo"></a></span>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
